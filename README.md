@@ -1,6 +1,6 @@
 ﻿# AutomationTest
 Summary
-Mojo WebApp from scratch with REST endpoint tests
+Perl Mouse Mojo WebApp from scratch with REST endpoint tests
 
 Test::Mojo → Simulates HTTP requests, validates content/JSON.
 
@@ -18,4 +18,5 @@ Order of Tests
 Ensures foundational tests (like authentication, DB setup) run before functional tests.
 
 Example: 01_auth.t → 02_create_user.t → 03_update_user.t → 04_delete_user.t
+
 
