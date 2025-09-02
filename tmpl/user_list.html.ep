@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+</head>
+<body>
+    <h1>User List</h1>
+    <ul>
+        % for my $user (@$users) {
+            <li><%= $user->username %> - <%= $user->email %></li>
+        % }
+    </ul>
+</body>
+</html>

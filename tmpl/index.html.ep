@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mojo App</title>
+</head>
+<body>
+    <h1>Welcome to My Mojo App!</h1>
+    <a href="/users">View Users</a>
+</body>
+</html>
